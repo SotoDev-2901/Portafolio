@@ -1,0 +1,113 @@
+.section-container {
+  display: grid;
+  grid-template-columns: 18rem 1fr;
+  gap: 2rem;
+  align-items: center;
+  width: 90%;
+  margin-inline: auto;
+  max-width: 80rem;
+  padding: 3rem 1rem;
+}
+
+.photo-container img {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 1.8rem;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.info-container p,
+a {
+  font-size: 20px;
+  color: #fff;
+}
+
+.info-container h1 {
+  font-size: 40px;
+  color: #0c0eff;
+}
+
+.info-container h2 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: normal;
+}
+
+.info-container h2 span {
+  color: #0c0eff;
+  font-weight: 700;
+}
+
+.info-buttons-container {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.download {
+  background-color: #2f45ff;
+  color: white;
+}
+
+.contact {
+  border: solid 1px #2F45FF;
+  color: #2f45ff;
+}
+
+.github {
+  background: #111;
+  height: 24px;
+}
+
+.github svg {
+  height: 24px;
+
+  fill: #fff;
+}
+
+.download,
+.contact,
+.github {
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 0.5rem;
+}
+
+.project-status {
+  display: flex;
+  justify-content: center;
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  max-width: fit-content; 
+  border-radius: 0.5rem; 
+  text-align: center;
+}
+.project-status p {
+  display: flex; /* Agrega esta línea */
+  align-items: center; /* Agrega esta línea */
+}
+
+.point {
+  width: 10px;
+  height: 10px;
+  background-color: #29ff06;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+  animation: glowing 1s infinite alternate; /* Agrega esta línea */
+}
+
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 5px #29ff06;
+  }
+  100% {
+    box-shadow: 0 0 20px #29ff06;
+  }
+}

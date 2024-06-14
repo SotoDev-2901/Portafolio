@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #171717;
+    height: 165vh;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-image: url("public/images/fondo.png");
+    background-position: right;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+  }
