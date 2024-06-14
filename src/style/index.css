@@ -1,17 +1,94 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background: #171717;
-    height: 165vh;
-    background-size: contain; 
-    background-repeat: no-repeat;
-    background-image: url("public/images/fondo.png");
-    background-position: right;
+  background: #171717;
+  height: 165vh;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-image: url("/images/fondo.png");
+  background-position: right;
 }
 
-body{
-    font-family: 'Inter', sans-serif;
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.title {
+  font-size: 2.25rem;
+  color: #0c0eff;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 10px rgba(12, 14, 255, 0.7), 0 0 20px rgba(12, 14, 255, 0.5), 0 0 30px rgba(12, 14, 255, 0.3), 0 0 40px rgba(12, 14, 255, 0.2), 0 0 70px rgba(12, 14, 255, 0.1), 0 0 80px rgba(12, 14, 255, 0.05), 0 0 100px rgba(12, 14, 255, 0.025), 0 0 150px rgba(12, 14, 255, 0.01);
+}
+
+.section-container, .section-projects {
+  width: 90%;
+  max-width: 80rem;
+  padding: 3rem 1rem;
+  margin-inline: auto;
+}
+
+.github-project svg, .github svg {
+  fill: #fff;
+}
+
+.github-project:hover, .github:hover{
+  background: #444;
+  box-shadow: 0.5px 0.5px 10px #444;
+}
+
+.github-project:hover, .github:hover {
+  background: #3b3b3b;
+  box-shadow: 0.5px 0.5px 10px #3b3b3b;
+}
+
+.download, .github, .takeALook, .buttons{
+  transition: background-color 0.3s ease;
+}
+
+.download, .takeALook{
+  background-color: #4c6dff;
+  color: white;
+}
+
+.download:hover, .takeALook:hover{
+  background-color: #2f45ff;
+  color: white;
+}
+
+.download:active, .takeALook:active{
+  background-color:#2031e2
+}
+
+@media screen and (max-width: 64rem) {
+  body {
+    height: 100vh;
+    background-size: 170%;
+    background-position:right;
   }
+  .section-container, .section-projects {
+    padding: 2rem 1rem;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  body {
+    height: 90vh;
+    background-size: 300%;
+    background-position:center;
+  }
+  .section-container, .section-projects {
+    padding: 1.5rem 1rem;
+  }
+  h1, h2 {
+    font-size: 25px;
+  }
+  h3, h4 {
+    font-size: 20px;
+  }
+  p, a {
+    font-size: 15px;
+    }
+}

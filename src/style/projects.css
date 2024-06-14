@@ -1,0 +1,107 @@
+.project-card {
+  flex: 1;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  transition: transform 0.8s ease;
+  background-color: #1e1e1e6e;
+  padding: 15px;
+  height: 100%;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-img {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.project-img img {
+  height: 1.5rem;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  transition: transform 0.2s ease;
+}
+
+.project-img img:hover {
+  transform: scale(1.2);
+}
+
+.project-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.project-info h4 {
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.project-info p {
+  color: #CFCFCF;
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.project-info ul {
+  list-style: none;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.project-info li {
+  margin-top: .5rem;
+}
+
+.project-info img {
+  height: 1.5rem;
+}
+
+.buttons-container {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1rem;
+}
+
+.buttons {
+  text-decoration: none;
+  text-align: center;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.github-project {
+  background: #111;
+  color: white;
+}
+
+.github-project svg {
+  height: 1.5rem;
+}
+
+.list-projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem 2rem;
+  list-style: none;
+}
+
+@media screen and (max-width: 72rem) {
+  .list-projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  .list-projects {
+    grid-template-columns: 100%;
+  }
+}
