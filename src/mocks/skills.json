@@ -1,0 +1,71 @@
+[
+  {
+    "name": "HTML",
+    "image": "/images/Skills/HTML.png",
+    "category": "Frontend"
+  },
+  {
+    "name": "CSS",
+    "image": "/images/Skills/CSS.png",
+    "category": "Frontend"
+  },
+  {
+    "name": "Javascript",
+    "image": "/images/Skills/Javascript.png",
+    "category": "Frontend"
+  },
+  {
+    "name": "ReactJS",
+    "image": "/images/Skills/ReactJS.png",
+    "category": "Frontend"
+  },
+  {
+    "name": "Bootstrap",
+    "image": "/images/Skills/Bootstrap.png",
+    "category": "Frontend"
+  },
+
+  {
+    "name": "Spring Boot",
+    "image": "/images/Skills/SpringBoot.png",
+    "category": "Backend"
+  },
+  {
+    "name": "NodeJS",
+    "image": "/images/Skills/NodeJS.png",
+    "category": "Backend"
+  },
+  {
+    "name": "Express",
+    "image": "/images/Skills/Express.png",
+    "category": "Backend"
+  },
+
+  {
+    "name": "Java",
+    "image": "/images/Skills/Java.png",
+    "category": "Lenguajes de programacion"
+  },
+
+  {
+    "name": "MySQL",
+    "image": "/images/Skills/MySQL.png",
+    "category": "Bases de datos"
+  },
+  {
+    "name": "SQL Server",
+    "image": "/images/Skills/SQL_Server.png",
+    "category": "Bases de datos"
+  },
+
+  {
+    "name": "Git",
+    "image": "/images/Skills/Git.png",
+    "category": "Control de versiones"
+  },
+  {
+    "name": "GitHub",
+    "image": "/images/Skills/GitHub.png",
+    "category": "Control de versiones"
+  }
+]

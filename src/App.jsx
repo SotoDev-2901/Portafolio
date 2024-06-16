@@ -1,5 +1,7 @@
 import { Projects } from "./components/Projects"
 import { Welcome } from "./components/Welcome"
+import { Skills } from "./components/Skills"
+import { Footer } from "./components/Footer"
 
 function App() {
 
@@ -7,6 +9,8 @@ function App() {
     <>
       <Welcome />
       <Projects />
+      <Skills />
+      <Footer />
     </>
   )
 }

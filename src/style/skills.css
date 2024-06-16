@@ -1,0 +1,48 @@
+.skills-groups-list {
+    display: grid;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .list-skill {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    padding-top: 1rem;
+  }
+  
+  .skill {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    padding: .9rem 1rem;
+    border-radius: .6rem;
+    background-color: #61616159;
+    align-items: center;
+    transition: background 0.2s ease;
+  }
+  
+  .skill:hover {
+    background-color: #75757559;
+    transition: background 0.2s ease;
+    transform: scale(1.05);
+  }
+  
+  .description {
+    color: #CFCFCF;
+    font-size: 1.25rem;
+    line-height: 1;
+    padding-bottom: 2rem;
+  }
+  
+  .title-skill {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .name-skill {
+    font-size: 1.25rem;
+    color: white;
+  }
