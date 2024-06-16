@@ -23,10 +23,10 @@ body {
   text-shadow: 0 0 10px rgba(12, 14, 255, 0.7), 0 0 20px rgba(12, 14, 255, 0.5), 0 0 30px rgba(12, 14, 255, 0.3), 0 0 40px rgba(12, 14, 255, 0.2), 0 0 70px rgba(12, 14, 255, 0.1), 0 0 80px rgba(12, 14, 255, 0.05), 0 0 100px rgba(12, 14, 255, 0.025), 0 0 150px rgba(12, 14, 255, 0.01);
 }
 
-.section-container, .section-projects, .section-skills{
+.section-container, .section-projects, .section-skills, .section-aboutMe, .section-experience{
   width: 90%;
   max-width: 80rem;
-  padding: 3rem 1rem;
+  padding: 3rem .6rem;
   margin-inline: auto;
 }
 
